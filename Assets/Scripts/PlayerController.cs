@@ -29,7 +29,7 @@ public class PlayerController2D : MonoBehaviour
         animator.SetFloat("Speed", movement.sqrMagnitude);
 
         // Handle attack input
-        if (Input.GetButtonDown("spcace"))
+        if (Input.GetButtonDown("Fire1")) 
         {
             Debug.Log("Attack button pressed");
             currentWeapon?.Attack();

@@ -49,9 +49,9 @@ public class GameManager : MonoBehaviour
     // Main Menu controls
     public void StartGame()
     {
+        Time.timeScale = 1f;
         SceneManager.LoadScene(1); 
         mainMenu?.SetActive(false);
-        Time.timeScale = 1f;
         isPaused = false;
     }
 
